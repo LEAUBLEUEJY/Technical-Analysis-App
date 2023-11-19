@@ -84,7 +84,7 @@ rsi_periods = exp_rsi.number_input(label = "RSI Periods",
                                    max_value = 50,
                                    value = 20,
                                    step = 1)
-tsi_upper = exp_rsi.number_input(label = "RSI Upper", 
+rsi_upper = exp_rsi.number_input(label = "RSI Upper", 
                                 min_value=50, 
                                 max_value=90, value=70, 
                                 step=1)
